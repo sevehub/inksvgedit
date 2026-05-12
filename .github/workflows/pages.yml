@@ -28,8 +28,9 @@ jobs:
       - name: Prepare deployment folder
         run: |
           mkdir public
-          cp -r src public/src
+          cp -r src/editor public/editor
           cp -r packages/svgcanvas/dist public/svgcanvas
+          cp src/editor/index.html public/index.html
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
@@ -46,6 +47,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
 
 

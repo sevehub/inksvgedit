@@ -28,9 +28,20 @@ jobs:
       - name: Prepare deployment folder
         run: |
           mkdir public
-          cp -r src/editor public/editor
-          cp -r packages/svgcanvas/dist public/svgcanvas
+
+          # Copy editor root files
           cp src/editor/index.html public/index.html
+          cp src/editor/*.js public/
+          cp src/editor/*.css public/
+
+          # Copy editor subfolders
+          cp -r src/editor/images public/images || true
+          cp -r src/editor/components public/components || true
+          cp -r src/editor/locale public/locale || true
+          cp -r src/editor/extensions public/extensions || true
+
+          # Copy svgcanvas build output
+          cp -r packages/svgcanvas/dist public/svgcanvas
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
@@ -47,5 +58,6 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
 
 

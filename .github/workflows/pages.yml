@@ -1,6 +1,56 @@
 
 name: Deploy SVGEdit to GitHub Pages
 
+on:
+  push:
+    branches:
+      - main
+      - master
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build svgcanvas
+        run: npm run build --workspace packages/svgcanvas
+
+      - name: Prepare deployment folder
+        run: |
+          mkdir public
+          cp -r src public/src
+          cp -r packages/svgcanvas/dist public/svgcanvas
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  publish:
+    needs: deploy
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+
+
+name: Deploy SVGEdit to GitHub Pages
+
 
 on:
   push:

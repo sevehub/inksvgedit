@@ -4,8 +4,7 @@ name: Deploy SVGEdit to GitHub Pages
 on:
   push:
     branches:
-      - main
-      - master
+      - dev
 
 permissions:
   contents: write

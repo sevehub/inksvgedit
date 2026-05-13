@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<svg width="792" height="144" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <style>line, path, circle,rect,polygon{stroke:black;stroke-width:2;stroke-opacity:1;fill-opacity:1;stroke-linecap:round;stroke-linejoin:miter;}text{font-family:monospace;font-size:14px;}rect.backdrop{stroke:none;fill:white;}.broken{stroke-dasharray:8;}.filled{fill:black;}.bg_filled{fill:white;}.nofill{fill:white;}.end_marked_arrow{marker-end:url(#arrow);}.start_marked_arrow{marker-start:url(#arrow);}.end_marked_diamond{marker-end:url(#diamond);}.start_marked_diamond{marker-start:url(#diamond);}.end_marked_circle{marker-end:url(#circle);}.start_marked_circle{marker-start:url(#circle);}.end_marked_open_circle{marker-end:url(#open_circle);}.start_marked_open_circle{marker-start:url(#open_circle);}.end_marked_big_open_circle{marker-end:url(#big_open_circle);}.start_marked_big_open_circle{marker-start:url(#big_open_circle);}</style>
+
+ <g class="layer">
+  <title>Layer 1</title>
+  <rect class="backdrop" height="144" id="svg_6" transform="matrix(1 0 0 1 0 0)" width="792" x="0" y="0"/>
+  <text id="svg_7" x="18" y="28">WBS</text>
+  <line class="solid" id="svg_8" x1="52" x2="52" y1="16" y2="128"/>
+  <text id="svg_9" x="66" y="28">Task</text>
+  <line class="solid" id="svg_10" x1="140" x2="140" y1="16" y2="128"/>
+  <text id="svg_11" x="154" y="28">Resource</text>
+  <line class="solid" id="svg_12" x1="228" x2="228" y1="16" y2="128"/>
+  <text id="svg_13" x="242" y="28">Start</text>
+  <line class="solid" id="svg_14" x1="316" x2="316" y1="16" y2="128"/>
+  <text id="svg_15" x="330" y="28">Duration</text>
+  <line class="solid" id="svg_16" x1="404" x2="404" y1="16" y2="128"/>
+  <text id="svg_17" x="418" y="28">ETA</text>
+  <line class="solid" id="svg_18" x1="500" x2="500" y1="16" y2="128"/>
+  <text id="svg_19" x="514" y="28">Su</text>
+  <text id="svg_20" x="554" y="28">Mo</text>
+  <line class="solid" id="svg_21" x1="580" x2="580" y1="16" y2="128"/>
+  <text id="svg_22" x="594" y="28">Tu</text>
+  <text id="svg_23" x="634" y="28">We</text>
+  <text id="svg_24" x="674" y="28">Th</text>
+  <text id="svg_25" x="714" y="28">Fr</text>
+  <line class="solid" id="svg_26" x1="740" x2="740" y1="16" y2="128"/>
+  <text id="svg_27" x="754" y="28">Sa</text>
+  <text id="svg_28" x="18" y="60">1</text>
+  <text id="svg_29" x="66" y="60">Task</text>
+  <text id="svg_30" x="106" y="60">A</text>
+  <text id="svg_31" x="154" y="60">Person</text>
+  <text id="svg_32" x="210" y="60">1</text>
+  <text id="svg_33" x="242" y="60">01</text>
+  <line class="solid" id="svg_34" x1="256" x2="264" y1="56" y2="56"/>
+  <text id="svg_35" x="266" y="60">01</text>
+  <text id="svg_36" x="330" y="60">31</text>
+  <text id="svg_37" x="354" y="60">days</text>
+  <text id="svg_38" x="418" y="60">01</text>
+  <line class="solid" id="svg_39" x1="432" x2="440" y1="56" y2="56"/>
+  <text id="svg_40" x="442" y="60">31</text>
+  <text id="svg_41" x="18" y="76">2</text>
+  <text id="svg_42" x="66" y="76">Task</text>
+  <text id="svg_43" x="106" y="76">B</text>
+  <text id="svg_44" x="154" y="76">Person</text>
+  <text id="svg_45" x="210" y="76">2</text>
+  <text id="svg_46" x="242" y="76">01</text>
+  <line class="solid" id="svg_47" x1="256" x2="264" y1="72" y2="72"/>
+  <text id="svg_48" x="266" y="76">05</text>
+  <text id="svg_49" x="330" y="76">12</text>
+  <text id="svg_50" x="354" y="76">days</text>
+  <text id="svg_51" x="418" y="76">01</text>
+  <line class="solid" id="svg_52" x1="432" x2="440" y1="72" y2="72"/>
+  <text id="svg_53" x="442" y="76">17</text>
+  <text id="svg_54" x="18" y="92">3</text>
+  <text id="svg_55" x="66" y="92">Task</text>
+  <text id="svg_56" x="106" y="92">C</text>
+  <line class="solid" id="svg_57" x1="112" x2="120" y1="88" y2="88"/>
+  <text id="svg_58" x="122" y="92">1</text>
+  <text id="svg_59" x="154" y="92">Person</text>
+  <text id="svg_60" x="210" y="92">3</text>
+  <text id="svg_61" x="242" y="92">01</text>
+  <line class="solid" id="svg_62" x1="256" x2="264" y1="88" y2="88"/>
+  <text id="svg_63" x="266" y="92">25</text>
+  <text id="svg_64" x="330" y="92">10</text>
+  <text id="svg_65" x="354" y="92">days</text>
+  <text id="svg_66" x="418" y="92">02</text>
+  <line class="solid" id="svg_67" x1="432" x2="440" y1="88" y2="88"/>
+  <text id="svg_68" x="442" y="92">03</text>
+  <text id="svg_69" x="18" y="108">4</text>
+  <text id="svg_70" x="66" y="108">Task</text>
+  <text id="svg_71" x="106" y="108">D</text>
+  <text id="svg_72" x="154" y="108">Person</text>
+  <text id="svg_73" x="210" y="108">4</text>
+  <text id="svg_74" x="242" y="108">01</text>
+  <line class="solid" id="svg_75" x1="256" x2="264" y1="104" y2="104"/>
+  <text id="svg_76" x="266" y="108">10</text>
+  <text id="svg_77" x="330" y="108">10</text>
+  <text id="svg_78" x="354" y="108">days</text>
+  <text id="svg_79" x="418" y="108">01</text>
+  <line class="solid" id="svg_80" x1="432" x2="440" y1="104" y2="104"/>
+  <text id="svg_81" x="442" y="108">20</text>
+  <text id="svg_82" x="18" y="124">5</text>
+  <text id="svg_83" x="66" y="124">Task</text>
+  <text id="svg_84" x="106" y="124">E</text>
+  <text id="svg_85" x="154" y="124">Person</text>
+  <text id="svg_86" x="210" y="124">5</text>
+  <text id="svg_87" x="242" y="124">01</text>
+  <line class="solid" id="svg_88" x1="256" x2="264" y1="120" y2="120"/>
+  <text id="svg_89" x="266" y="124">15</text>
+  <text id="svg_90" x="330" y="124">17</text>
+  <text id="svg_91" x="354" y="124">days</text>
+  <text id="svg_92" x="418" y="124">02</text>
+  <line class="solid" id="svg_93" x1="432" x2="440" y1="120" y2="120"/>
+  <text id="svg_94" x="442" y="124">01</text>
+  <line class="solid" id="svg_96" x1="4" x2="4" y1="16" y2="128"/>
+  <line class="solid" id="svg_97" x1="780" x2="780" y1="16" y2="128"/>
+  <line class="solid" id="svg_98" x1="4" x2="780" y1="40" y2="40"/>
+  <line class="solid" id="svg_99" x1="512" x2="780" y1="56" y2="56"/>
+  <g id="svg_100">
+   <line class="solid" id="svg_101" x1="540" x2="540" y1="16" y2="128"/>
+   <line class="solid" id="svg_102" x1="660" x2="660" y1="16" y2="128"/>
+   <line class="solid" id="svg_103" x1="540" x2="660" y1="72" y2="72"/>
+   <line class="solid" id="svg_104" x1="560" x2="660" y1="104" y2="104"/>
+  </g>
+  <g id="svg_105">
+   <line class="solid" id="svg_106" x1="620" x2="620" y1="16" y2="128"/>
+   <line class="solid" id="svg_107" x1="700" x2="700" y1="16" y2="128"/>
+   <line class="solid" id="svg_108" x1="620" x2="700" y1="88" y2="88"/>
+   <line class="solid" id="svg_109" x1="600" x2="700" y1="120" y2="120"/>
+  </g>
+ </g>
+</svg>

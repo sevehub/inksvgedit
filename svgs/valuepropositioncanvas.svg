@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<svg width="1200" height="700" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Background -->
+ <!-- Left side: Customer Profile -->
+ <!-- Customer Jobs -->
+ <!-- Pains -->
+ <!-- Gains -->
+ <!-- Right side: Value Map -->
+ <!-- Products & Services -->
+ <!-- Pain Relievers -->
+ <!-- Gain Creators -->
+ <!-- Center label -->
+ <g class="layer">
+  <title>Layer 1</title>
+  <rect fill="#ffffff" height="700" id="svg_1" width="1200" x="0" y="0"/>
+  <rect fill="#f7f7f7" height="600" id="svg_2" stroke="#333" stroke-width="2" width="500" x="50" y="50"/>
+  <text fill="#333" font-family="Arial" font-size="24" font-weight="bold" id="svg_3" x="70" y="90">Customer Profile</text>
+  <rect fill="#ffffff" height="160" id="svg_4" stroke="#555" stroke-width="1.5" width="460" x="70" y="120"/>
+  <text fill="#333" font-family="Arial" font-size="18" font-weight="bold" id="svg_5" x="90" y="150">Customer Jobs</text>
+  <text fill="#777" font-family="Arial" font-size="14" id="svg_6" x="90" y="180">• Functional jobs</text>
+  <text fill="#777" font-family="Arial" font-size="14" id="svg_7" x="90" y="205">• Social jobs</text>
+  <text fill="#777" font-family="Arial" font-size="14" id="svg_8" x="90" y="230">• Emotional jobs</text>
+  <rect fill="#ffffff" height="160" id="svg_9" stroke="#555" stroke-width="1.5" width="460" x="70" y="310"/>
+  <text fill="#333" font-family="Arial" font-size="18" font-weight="bold" id="svg_10" x="90" y="340">Pains</text>
+  <text fill="#777" font-family="Arial" font-size="14" id="svg_11" x="90" y="370">• Obstacles, risks, frustrations</text>
+  <rect fill="#ffffff" height="130" id="svg_12" stroke="#555" stroke-width="1.5" width="460" x="70" y="500"/>
+  <text fill="#333" font-family="Arial" font-size="18" font-weight="bold" id="svg_13" x="90" y="530">Gains</text>
+  <text fill="#777" font-family="Arial" font-size="14" id="svg_14" x="90" y="560">• Desired outcomes and benefits</text>
+  <rect fill="#f7f7f7" height="600" id="svg_15" stroke="#333" stroke-width="2" width="500" x="650" y="50"/>
+  <text fill="#333" font-family="Arial" font-size="24" font-weight="bold" id="svg_16" x="670" y="90">Value Map</text>
+  <rect fill="#ffffff" height="160" id="svg_17" stroke="#555" stroke-width="1.5" width="460" x="670" y="120"/>
+  <text fill="#333" font-family="Arial" font-size="18" font-weight="bold" id="svg_18" x="690" y="150">Products &amp; Services</text>
+  <text fill="#777" font-family="Arial" font-size="14" id="svg_19" x="690" y="180">• List your offerings</text>
+  <rect fill="#ffffff" height="160" id="svg_20" stroke="#555" stroke-width="1.5" width="460" x="670" y="310"/>
+  <text fill="#333" font-family="Arial" font-size="18" font-weight="bold" id="svg_21" x="690" y="340">Pain Relievers</text>
+  <text fill="#777" font-family="Arial" font-size="14" id="svg_22" x="690" y="370">• How you reduce or remove pains</text>
+  <rect fill="#ffffff" height="130" id="svg_23" stroke="#555" stroke-width="1.5" width="460" x="670" y="500"/>
+  <text fill="#333" font-family="Arial" font-size="18" font-weight="bold" id="svg_24" x="690" y="530">Gain Creators</text>
+  <text fill="#777" font-family="Arial" font-size="14" id="svg_25" x="690" y="560">• How you create customer gains</text>
+  <text fill="#333" font-family="Arial" font-size="20" id="svg_26" text-anchor="middle" x="600" y="30">Value Proposition Canvas</text>
+ </g>
+</svg>

@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<svg width="680" height="560" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <title>Claude Code mascot</title>
+ <desc>A friendly rounded robot character whose face is a notebook page with ruled lines and a pencil-checkmark smile.</desc>
+ <defs>
+  <style>.body{fill:#DA7756;}
+    .bodyDark{fill:#C15F3C;}
+    .paper{fill:#FAF7F2;}
+    .dark{fill:#3D3929;}
+    .accent{fill:#EBDBCB;}
+    .line{stroke:#EBDBCB;stroke-width:3;stroke-linecap:round;}</style>
+ </defs>
+ <!-- shadow -->
+ <!-- legs/feet -->
+ <!-- left arm, simple wave -->
+ <!-- right arm, simple wave -->
+ <!-- main body / head, rounded square notebook robot -->
+ <!-- little antenna -->
+ <!-- notebook page face -->
+ <!-- spiral binding dots along top -->
+ <!-- ruled lines -->
+ <!-- eyes -->
+ <!-- smile drawn like handwriting -->
+ <!-- chest panel detail -->
+ <g class="layer">
+  <title>Layer 1</title>
+  <ellipse cx="340" cy="500" rx="140" ry="18" fill="#000000" opacity="0.08" id="svg_1"/>
+  <rect x="270" y="440" width="34" height="50" rx="14" class="bodyDark" id="svg_2"/>
+  <rect x="376" y="440" width="34" height="50" rx="14" class="bodyDark" id="svg_3"/>
+  <ellipse cx="287" cy="492" rx="28" ry="12" class="dark" id="svg_4"/>
+  <ellipse cx="393" cy="492" rx="28" ry="12" class="dark" id="svg_5"/>
+  <rect x="158" y="270" width="34" height="110" rx="17" class="body" transform="rotate(-14 175 270)" id="svg_6"/>
+  <rect x="488" y="270" width="34" height="110" rx="17" class="body" transform="rotate(14 505 270)" id="svg_8"/>
+  <rect x="210" y="130" width="260" height="300" rx="46" class="body" id="svg_10"/>
+  <rect x="330" y="90" width="8" height="40" rx="4" class="bodyDark" id="svg_11"/>
+  <circle cx="334" cy="82" r="12" class="bodyDark" id="svg_12"/>
+  <rect x="240" y="176" width="200" height="150" rx="14" class="paper" id="svg_13"/>
+  <circle cx="258" cy="176" r="4" class="accent" id="svg_14"/>
+  <circle cx="290" cy="176" r="4" class="accent" id="svg_15"/>
+  <circle cx="322" cy="176" r="4" class="accent" id="svg_16"/>
+  <circle cx="358" cy="176" r="4" class="accent" id="svg_17"/>
+  <circle cx="390" cy="176" r="4" class="accent" id="svg_18"/>
+  <circle cx="422" cy="176" r="4" class="accent" id="svg_19"/>
+  <line x1="256" y1="252" x2="424" y2="252" class="line" id="svg_20"/>
+  <line x1="256" y1="278" x2="424" y2="278" class="line" id="svg_21"/>
+  <line x1="256" y1="304" x2="424" y2="304" class="line" id="svg_22"/>
+  <rect x="278" y="220" width="14" height="26" rx="3" class="dark" id="svg_23"/>
+  <rect x="368" y="220" width="14" height="26" rx="3" class="dark" id="svg_24"/>
+  <path d="m270,296q70,24 140,0" fill="none" stroke="#3D3929" stroke-width="5" stroke-linecap="round" id="svg_25"/>
+  <rect x="270" y="352" width="140" height="10" rx="5" class="bodyDark" id="svg_26"/>
+  <rect x="270" y="372" width="90" height="10" rx="5" class="bodyDark" id="svg_27"/>
+ </g>
+</svg>
